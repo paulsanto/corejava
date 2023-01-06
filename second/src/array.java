@@ -12,7 +12,7 @@ public class array {
 		
 		String[] cars = new String[3];
 		
-		cars[0] = "Camaro";
+		cars[0] = "Sushmita ";
 		cars[1] = "Corvette";
 		cars[2] = "Tesla";
 		
