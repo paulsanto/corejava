@@ -134,9 +134,9 @@ public class FunctionAndMathod {
 		
 		//System.out.println(printEligibility(age));
 		
-		infinite in = new infinite();
+		infinite (i);
 		
-		System.out.println(infinite);
+		
 	}
 
 }
