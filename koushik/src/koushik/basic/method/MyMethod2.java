@@ -34,7 +34,7 @@ public class MyMethod2 {
 	}
 
 	void callStaticName() {
-		staticName();// cam call a static method from a non static method.
+		staticName();// can call a static method from a non static method.
 	    callMyName();
 	}
 	

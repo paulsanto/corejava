@@ -85,6 +85,7 @@ public class FunctionAndMathod {
 	//------------------------------------------------
 	
 	static void infinite(int i) {
+		
 		do {
 			System.out.println(i);
 			i++;
@@ -134,6 +135,7 @@ public class FunctionAndMathod {
 		
 		//System.out.println(printEligibility(age));
 		
+		int i = 11;
 		infinite (i);
 		
 		
