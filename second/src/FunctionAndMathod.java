@@ -142,7 +142,7 @@ public class FunctionAndMathod {
 		System.out.println("xyz");
 	}
 	static int i = 11;
-	static void definite(int x) {
+	static void definite(int i) {
 		
 		do {
 			System.out.println(i);
