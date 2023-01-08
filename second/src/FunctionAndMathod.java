@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class FunctionAndMathod {
+	
 	//public static void printMyName(String name) {
 	//	System.out.println(name);
 	//	return;
@@ -85,7 +86,7 @@ public class FunctionAndMathod {
 	//------------------------------------------------
 	
 	static void infinite(int i) {
-		
+	
 		do {
 			System.out.println(i);
 			i++;
@@ -135,10 +136,18 @@ public class FunctionAndMathod {
 		
 		//System.out.println(printEligibility(age));
 		
-		int i = 11;
-		infinite (i);
 		
+		definite(i);
+		infinite (i);
+		System.out.println("xyz");
+	}
+	static int i = 11;
+	static void definite(int x) {
+		
+		do {
+			System.out.println(i);
+			i++;
+		}while (i>10);
 		
 	}
-
 }
