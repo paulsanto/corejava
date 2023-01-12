@@ -1,3 +1,4 @@
+package a_basic;
 import java.util.*;
 
 public class array2 {

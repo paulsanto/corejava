@@ -1,6 +1,7 @@
+package array;
 import java.util.*;
 
-public class array2d {
+public class Array2d {
 	public static void main(String args[]) {
 		
 		//2D array = an array of arrays

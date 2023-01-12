@@ -1,6 +1,6 @@
 package a_basic;
 
-public class main1 {
+public class Main1 {
 	public static void main(String args[]) {
 		String x = "water";
 		String y = "Kool-Aid";

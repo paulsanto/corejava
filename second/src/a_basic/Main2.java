@@ -1,6 +1,7 @@
+package a_basic;
 import java.util.Scanner;
 
-public class main2 {
+public class Main2 {
 	public static void main(String args[]) {
 		
 		Scanner scanner = new Scanner(System.in);
