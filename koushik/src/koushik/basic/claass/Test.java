@@ -1,6 +1,6 @@
 package koushik.basic.claass;
 
-class Test2 {
+class Test6 {
 
 }
 
