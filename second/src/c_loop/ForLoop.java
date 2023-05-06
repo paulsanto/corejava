@@ -1,7 +1,7 @@
 package c_loop;
 import java.util.*;
 
-public class ForLoop {
+public class ForLooops {
 	public static void main(String args[]) {
 		 // for loop = executes a block of code a listed amount of times
 		
