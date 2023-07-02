@@ -1,5 +1,5 @@
 package basic;
-
+import java.util.Arrays;
 public class ForLoops {
 
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class ForLoops {
 		for(int i = 0; i<26; i++) {
 			alpha [i]=(char) (97+i);
 		}
-		System.out.println(Arrays.tostring(alpha));
+		System.out.println(Arrays.toString(alpha));
 
 	}
 
