@@ -11,8 +11,8 @@ public class MaxandMin {
 			if (numb[i]> maxnumb) {
 				maxnumb = numb[i];
 			}
-			if (numb[i]<maxnumb){
-				minnumb = numb[0];
+			if (numb[i]<minnumb){
+				minnumb = numb[i];
 			}
 		}
 		System.out.println("The maximun value is: "+maxnumb);
