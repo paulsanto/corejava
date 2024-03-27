@@ -6,8 +6,8 @@ public class ArraysPractice {
 	public static void main(String[] args) {
 		// 1. Take 10 integer inputs from user and store them in an array and print them on screen
 		
-		/*Scanner sc = new Scanner(System.in);
-		int [] arr = new int[10];
+		Scanner sc = new Scanner(System.in);
+		/*int [] arr = new int[10];
 		
 		for(int i = 0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
@@ -60,7 +60,7 @@ public class ArraysPractice {
 		
 		// find is the array sorted or not
 		
-		boolean isSorted = true;
+		/*boolean isSorted = true;
 		int [] arr = {24, 41, 25, 78, 65, 257};
 		
 		for(int i =0; i<arr.length-1; i++) {
@@ -75,6 +75,48 @@ public class ArraysPractice {
 		}else {
 			System.out.println("This array is not sorted!");
 		}
+		*/
+		// Find the cubic value of the array
+		
+		/*int [] arr = {1, 2, 3, 8, 10};
+		
+		int result = 0;
+		for(int i = 0; i<arr.length; i++) {
+			for(int j =0; j<=arr[i]; j++) {
+				result = (j*j*j);
+			}
+			System.out.print(result+" ");
+			
+		}
+		*/
+		
+		// Write a program to read n number of values in an array and display in reverse order
+		
+		/*System.out.println("Enter the size of the array: ");
+		int size = sc.nextInt();
+		int [] arr = new int[size];
+		
+		for(int i =0; i<size; i++) {
+			System.out.printf("Element of a[%d]: ",i);
+			arr[i] = sc.nextInt();
+			
+		}
+		System.out.println("Display the array: ");
+		for(int i =0; i<size; i++) {
+			System.out.print(arr[i]+", ");
+		}
+		System.out.println("\nDisplay the reverse array: ");
+		for(int i = size-1; i>=0; i--) {
+			System.out.print(arr[i]+" ");
+		}
+		*/
+		
+		int [] arr = {25, 63, 45, 52, 41};
+		
+		for(int i= arr.length-1; i>=0; i--) {
+			System.out.print(arr[i]+", ");
+		}
+
 
 	}
 
