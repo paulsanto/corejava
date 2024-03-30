@@ -46,6 +46,26 @@ class Square{
 	}
 }
 
+class Circle{
+	private int redius;
+	
+	public int getRedius() {
+		return redius;
+	}
+	
+	public void setRedius(int r) {
+		redius = r;
+	}
+	
+	public double getArea() {
+		return Math.PI* redius* redius;
+	}
+	
+	public double getPerimeter() {
+		return 2*Math.PI*redius;
+	}
+}
+
 public class OopsPractice {
 
 	public static void main(String[] args) {
@@ -68,6 +88,33 @@ public class OopsPractice {
 		System.out.println(sc.area());
 		System.out.println(sc.perimeter());
 		
+		Circle cr = new Circle();
+		
+		cr.setRedius(5);
+		
+		System.out.println(cr.getRedius());
+		System.out.println(cr.getArea());
+		System.out.println(cr.getPerimeter());
+		
+		// manual checking Area
+		double manualCheckingArea = Math.PI*cr.getRedius()*cr.getRedius();
+		System.out.println("The area of manual checking is "+manualCheckingArea);
+		
+		// manual checking perimeter
+		double manualCheckingPerimeter = Math.PI*2*cr.getRedius();
+		System.out.println("The perimeter of manual checking is "+manualCheckingPerimeter);
+		
+		if(manualCheckingArea == cr.getArea()) {
+			System.out.println("The area is correct");
+		}else {
+			System.out.println("The area is not correct");
+		}
+		
+		if(manualCheckingPerimeter == cr.getPerimeter()) {
+			System.out.println("The perimeter is correct!");
+		}else {
+			System.out.println("The perimeter is not correct!");
+		}
 
 	}
 
