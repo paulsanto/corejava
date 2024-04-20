@@ -57,7 +57,7 @@ public class LibraryPractice {
 		library.issueBook("C++");
 		library.showAvailableBooks();
 		
-		library.addBook("C++");
+		library.returnBook("C++");
 		library.showAvailableBooks();
 
 	}
