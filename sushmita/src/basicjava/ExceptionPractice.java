@@ -30,7 +30,7 @@ public class ExceptionPractice {
 		catch(IllegalArgumentException e) {
 			System.out.println("HeHe");
 		}
-		*/
+		*/ 
 		
 		// Write a Java program that allows you to keep accessing an array until a valid index is given. If max retrieve exceed 5 print "Error"
 		

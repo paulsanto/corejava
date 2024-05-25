@@ -111,10 +111,26 @@ public class ArraysPractice {
 		}
 		*/
 		
-		int [] arr = {25, 63, 45, 52, 41};
+		int [] arr = {25, 63, 14, 45, 52, 41};
 		
-		for(int i= arr.length-1; i>=0; i--) {
-			System.out.print(arr[i]+", ");
+		// Selection sort implementation
+		for(int i= 0; i<arr.length-1; i++) {
+			int minIndex = i;
+			for(int j = i+1; j<arr.length; j++) {
+				if(arr[j]<arr[minIndex]) {
+					minIndex = j;
+				}
+			}
+			// Swap the minimum element with the first element of the unsorted part
+			int temp = arr[i];
+			arr[i] = arr[minIndex];
+			arr[minIndex] = temp;
+			
+		}
+		// Print the sorted array
+		System.out.println("Sorted array: ");
+		for(int i = 0; i<arr.length; i++) {
+			System.out.print(arr[i]+ " ");
 		}
 
 
